@@ -4,7 +4,7 @@ Purpose: Remote control (onboard) ACT LED on/off using system commands that mani
 /sys/class/leds/led0/brightness
 
 Requirements:
-- Raspberry Pi board
+- Raspberry Pi board (Check RaspBerryPi2 folder for tutorials)
 - Ethernet cable
 
 How-To:
