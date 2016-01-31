@@ -25,7 +25,7 @@ int main(void){
 
 void motor(void){
 	digitalWrite(LED, HIGH);		//LED on (signal opening)
-	softPwmCreate(MOTOR, 0, 100);	//create a soft pwm
+	softPwmCreate(MOTOR, 0, 100);	//create a software pwm
 	softPwmWrite(MOTOR, 10);		//motor moves left (open)
 	printf("Opening...\n");
 	delay(1000);					//for 1 second
