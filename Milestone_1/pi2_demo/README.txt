@@ -1,15 +1,15 @@
 /**
- *  This project demonstrates the uNabto framework running the
- *  SDK demo on Microsoft Windows and Unix (Linux or MAC OSX).
- *  This is the smallest possible implementation of uNabto.
+ *  Still under construction...
+ *
+ *  This project demonstrates the uNabto framework running on
+ *  a Raspberry Pi 2 model B demo on Unix (Rasbian Wheezy).
  *
  *  The default HTML-DD source for this uNabto application is
- *  located at unabto/demo/html_device_driver, which also is a
- *  good starting point for creating your own custom HTML-DD.
+ *  located at unabto/demo/html_device_driver.
  *  
- *  Manage your devices and read the quick start guide from
+ *  The Raspberry Pi is accessed from the nabto platform:
  *  https://portal.nabto.com
  *  
- *  For further details read the uNabto documentation from
- *  http://nabto.com/documentation
+ *  Check the Remote Control Dispenser for more information
+ *  Project_1/Milestone_1/DispenserProject.pdf
  */
