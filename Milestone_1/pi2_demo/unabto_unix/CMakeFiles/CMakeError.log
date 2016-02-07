@@ -1,0 +1,72 @@
+Determining if files openssl/rand.h exist failed with the following output:
+Change Dir: /home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec608806708/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec608806708.dir/build.make CMakeFiles/cmTryCompileExec608806708.dir/build
+make[1]: Entering directory '/home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec608806708.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec608806708.dir/CheckIncludeFiles.c.o   -c /home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:26: fatal error: openssl/rand.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTryCompileExec608806708.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec608806708.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec608806708.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec608806708/fast' failed
+make: *** [cmTryCompileExec608806708/fast] Error 2
+
+Source:
+/* */
+#include <openssl/rand.h>
+
+
+int main(){return 0;}
+
+Determining if files openssl/evp.h exist failed with the following output:
+Change Dir: /home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3922275622/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3922275622.dir/build.make CMakeFiles/cmTryCompileExec3922275622.dir/build
+make[1]: Entering directory '/home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3922275622.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3922275622.dir/CheckIncludeFiles.c.o   -c /home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: openssl/evp.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTryCompileExec3922275622.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3922275622.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3922275622.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec3922275622/fast' failed
+make: *** [cmTryCompileExec3922275622/fast] Error 2
+
+Source:
+/* */
+#include <openssl/evp.h>
+
+
+int main(){return 0;}
+
+Determining if files openssl/hmac.h exist failed with the following output:
+Change Dir: /home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2526799722/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2526799722.dir/build.make CMakeFiles/cmTryCompileExec2526799722.dir/build
+make[1]: Entering directory '/home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2526799722.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2526799722.dir/CheckIncludeFiles.c.o   -c /home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:26: fatal error: openssl/hmac.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTryCompileExec2526799722.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2526799722.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/unabto_sdk/unabto/demo/pc_demo/unabto_unix/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2526799722.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec2526799722/fast' failed
+make: *** [cmTryCompileExec2526799722/fast] Error 2
+
+Source:
+/* */
+#include <openssl/hmac.h>
+
+
+int main(){return 0;}
+
